@@ -1,0 +1,114 @@
+
+/*******************************************
+
+Autor:    Íñigo Salafranca
+Site:     Rosquilla CMS
+Año:      2015
+Versión:  1.0
+
+*******************************************/
+
+
+/* general */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: table;
+  width: 100%;
+}
+
+.container{
+  min-height: 100%;
+}
+
+.salvaNav{
+  margin-top: 60px;
+}
+
+.navbar-fixed-top{
+  margin-bottom: 60px;
+}
+
+/* carrusel */
+
+.carousel{
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.carousel-inner .item img,
+.carousel-inner .item a img {
+  width: 100% !important;
+  max-height: 500px !important;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-control{
+  background-image: none !important;
+}
+
+/* configuración */
+
+.espa{
+  margin-bottom: 30px !important;
+}
+
+.lateral{
+  margin: 0;
+}
+ 
+/* login */
+
+.login {
+  width: 50%; 
+  height: 50%;
+  min-width: 200px;
+  max-width: 400px;
+  padding: 40px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+/* cierra sesión (Panel de Control) */
+
+.derec{
+	float: right !important;
+}
+
+.derec li a{
+	color: red !important;
+}
+
+/* formulario de contacto */
+
+.linea{
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.contacto{
+	margin: 100px auto;
+}
+
+.contacto button{
+	margin-top: 20px;
+}
+
+/* footer */
+
+.salvaPie{
+  height: 30px;
+}
+
+.pie{
+  background-color: rgba(7, 13, 0, 0.7);
+  color: white;
+}
+
+
+
+
